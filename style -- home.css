@@ -1,0 +1,153 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+}
+
+@font-face {
+  font-family: "Product Sans";
+  src: url("fonts/Product-Sans-Bold.ttf") format("ttf");
+  font-weight: bold;
+  font-style: normal;
+}
+
+.header {
+  height: 80px;
+  display: block;
+  padding-top: 4%;
+  padding-left: 8%;
+  background-color: #eedbcd;
+}
+
+.logo {
+  width: 140px;
+  height: 44px;
+}
+
+.body {
+  min-height: 100vh;
+  min-width: 100vw;
+  background-color: #eedbcd;
+  overflow-x: hidden;
+}
+
+.text {
+  font-size: 40px;
+  font-family: "Product Sans", sans-serif;
+  font-weight: bold;
+}
+
+.heading {
+  display: flex;
+  font-size: 64px;
+  font-family: "Product Sans", sans-serif;
+  font-weight: bold;
+  justify-content: center;
+}
+
+.buttons {
+  display: block;
+  padding-top: 4%;
+  text-align: center;
+}
+
+.button {
+  font-family: "Product Sans", sans-serif;
+  font-weight: bold;
+  justify-content: center;
+  place-items: center;
+  font-size: 20px;
+  color: white;
+  width: 360px;
+  height: 40px;
+  padding: 20px;
+  display: inline-flex;
+  border-radius: 30px;
+  border: none;
+  outline: none;
+  margin-inline: 2%;
+  margin-bottom: 4%;
+  position: relative;
+}
+
+.purple {
+  background-color: #6f2dbd;
+  box-shadow: 0px 10px 20px rgba(70, 0, 94, 0.5);
+}
+
+.orange {
+  background-color: #ef5b5b;
+  box-shadow: 0px 10px 20px rgba(139, 28, 28, 0.5);
+}
+
+.teal {
+  background-color: #083954;
+  box-shadow: 0px 10px 20px rgba(8, 57, 84, 0.5);
+}
+
+.red {
+  background-color: #cb1d25;
+  box-shadow: 0px 10px 20px rgba(203, 29, 37, 0.5);
+}
+
+.blue {
+  background-color: #1e53a2;
+  box-shadow: 0px 10px 20px rgba(30, 83, 162, 0.5);
+}
+
+.yellow {
+  background-color: #c98d00;
+  box-shadow: 0px 10px 20px rgba(201, 141, 0, 0.5);
+}
+
+.button_two {
+  font-family: "Product Sans", sans-serif;
+  font-weight: bold;
+  justify-content: center;
+  place-items: center;
+  font-size: 20px;
+  color: white;
+  width: 560px;
+  height: 40px;
+  padding: 20px;
+  display: inline-flex;
+  border-radius: 30px;
+  border: none;
+  outline: none;
+  margin-inline: 2%;
+  margin-bottom: 4%;
+  position: relative;
+}
+
+.footer {
+  padding: 30px;
+  margin-top: 2%;
+  background-color: white;
+  text-align: center;
+  font-family: "Product Sans";
+  font-weight: bold;
+  font-size: 28px;
+  text-decoration: none;
+}
+
+.about {
+  color: black;
+}
+
+p {
+  text-align: center;
+  display: grid;
+  place-items: center;
+}
+
+.container {
+  display: inline-flex;
+  place-items: center;
+}
+
+.text {
+  font-size: 24px;
+  font-family: "Product Sans", sans-serif;
+  text-align: left;
+}
