@@ -75,6 +75,7 @@
 
 .all {
   margin-top: 2%;
+  margin-bottom: 2%;
   display: flex;
   position: relative;
   justify-content: center;
@@ -107,6 +108,7 @@
 }
 
 .back {
+  padding-top: 30%;
   height: 30px;
   width: 30px;
 }
