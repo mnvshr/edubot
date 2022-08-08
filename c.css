@@ -107,7 +107,26 @@
 }
 
 .back {
-  padding-left: 8%;
   height: 40px;
   width: 40px;
+}
+
+.center {
+  text-align: center;
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.left {
+  float: left;
+  padding-left: 8%;
+}
+
+.right {
+  float: right;
+}
+
+.space {
+  padding-top: 1%;
 }
