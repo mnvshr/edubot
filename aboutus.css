@@ -56,29 +56,17 @@
   justify-content: center;
   align-content: center;
   margin: auto;
+  padding-top: 2%;
 }
 
-.text {
+.text_p {
   font-size: 26px;
   font-family: "Product Sans", sans-serif;
+  font-weight: bold;
   text-align: center;
   padding: 50px;
-  padding-left: 400px;
-  padding-right: 400px;
-}
-
-.footer {
-  padding: 30px;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  margin-top: 2%;
-  background-color: white;
-  text-align: center;
-  font-family: "Product Sans";
-  font-weight: bold;
-  font-size: 24px;
-  text-decoration: none;
+  padding-left: 20%;
+  padding-right: 20%;
 }
 
 .image {
@@ -92,10 +80,31 @@
 
 .space {
   padding-inline: 20px;
-  padding-top: 48px;
+  padding-top: 40px;
 }
 
 .black {
   color: black;
   text-decoration: underline;
+}
+
+.center {
+  text-align: center;
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.left {
+  float: left;
+  padding-left: 8%;
+}
+
+.space {
+  padding-top: 1%;
+}
+
+.back {
+  height: 30px;
+  width: 30px;
 }

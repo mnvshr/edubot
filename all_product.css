@@ -82,9 +82,9 @@
 }
 
 .headings {
+  font-family: "Product Sans", sans-serif;
   border-style: solid;
   border-width: 5px;
-  border-color: #6f2dbd;
   border-radius: 20px;
   padding-left: 10%;
   padding-right: 10%;
@@ -107,8 +107,8 @@
 }
 
 .back {
-  height: 40px;
-  width: 40px;
+  height: 30px;
+  width: 30px;
 }
 
 .center {
@@ -129,4 +129,88 @@
 
 .space {
   padding-top: 1%;
+}
+
+.text {
+  font-size: 40px;
+  font-family: "Product Sans", sans-serif;
+  font-weight: bold;
+}
+
+.purple_shadow {
+  background-color: #6f2dbd;
+  box-shadow: 0px 10px 20px rgba(70, 0, 94, 0.5);
+}
+
+.purple {
+  background-color: #6f2dbd;
+}
+
+.purple_border {
+  border-color: #6f2dbd;
+}
+
+.orange_shadow {
+  background-color: #ef5b5b;
+  box-shadow: 0px 10px 20px rgba(139, 28, 28, 0.5);
+}
+
+.orange {
+  background-color: #ef5b5b;
+}
+
+.orange_border {
+  border-color: #ef5b5b;
+}
+
+.teal_shadow {
+  background-color: #083954;
+  box-shadow: 0px 10px 20px rgba(8, 57, 84, 0.5);
+}
+
+.teal {
+  background-color: #083954;
+}
+
+.teal_border {
+  border-color: #083954;
+}
+
+.red_shadow {
+  background-color: #cb1d25;
+  box-shadow: 0px 10px 20px rgba(203, 29, 37, 0.5);
+}
+
+.red {
+  background-color: #cb1d25;
+}
+
+.red_border {
+  border-color: #cb1d25;
+}
+
+.blue_shadow {
+  background-color: #1e53a2;
+  box-shadow: 0px 10px 20px rgba(30, 83, 162, 0.5);
+}
+
+.blue {
+  background-color: #1e53a2;
+}
+
+.blue_border {
+  border-color: #1e53a2;
+}
+
+.yellow_shadow {
+  background-color: #c98d00;
+  box-shadow: 0px 10px 20px rgba(201, 141, 0, 0.5);
+}
+
+.yellow {
+  background-color: #c98d00;
+}
+
+.yellow_border {
+  border-color: #c98d00;
 }
