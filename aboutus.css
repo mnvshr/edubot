@@ -69,7 +69,6 @@
 
 .footer {
   padding: 30px;
-  position: fixed;
   left: 0;
   right: 0;
   bottom: 0;
@@ -93,7 +92,7 @@
 
 .space {
   padding-inline: 20px;
-  padding-top: 40px;
+  padding-top: 48px;
 }
 
 .black {
