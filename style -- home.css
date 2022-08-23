@@ -5,12 +5,7 @@
   text-decoration: none;
 }
 
-@font-face {
-  font-family: "Product Sans";
-  src: url("fonts/Product-Sans-Bold.ttf") format("ttf");
-  font-weight: bold;
-  font-style: normal;
-}
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap");
 
 .header {
   height: 80px;
@@ -34,14 +29,14 @@
 
 .text {
   font-size: 40px;
-  font-family: "Product Sans", sans-serif;
+  font-family: "Inter", sans-serif;
   font-weight: bold;
 }
 
 .heading {
   display: flex;
   font-size: 64px;
-  font-family: "Product Sans", sans-serif;
+  font-family: "Inter", sans-serif;
   font-weight: bold;
   justify-content: center;
 }
@@ -53,8 +48,8 @@
 }
 
 .button {
-  font-family: "Product Sans", sans-serif;
-  font-weight: bold;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
   justify-content: center;
   place-items: center;
   font-size: 20px;
@@ -102,8 +97,8 @@
 }
 
 .button_two {
-  font-family: "Product Sans", sans-serif;
-  font-weight: bold;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
   justify-content: center;
   place-items: center;
   font-size: 20px;
@@ -125,7 +120,7 @@
   margin-top: 2%;
   background-color: white;
   text-align: center;
-  font-family: "Product Sans";
+  font-family: "Inter", sans-serif;
   font-weight: bold;
   font-size: 28px;
   text-decoration: none;
@@ -148,6 +143,6 @@ p {
 
 .text {
   font-size: 24px;
-  font-family: "Product Sans", sans-serif;
+  font-family: "Inter", sans-serif;
   text-align: left;
 }
